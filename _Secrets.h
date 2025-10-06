@@ -7,4 +7,7 @@ ToDo: Rename to Secrets.h and add correct information below
 #define STAPSK "wlan pw"
 #endif
 
-static const String API_TOKEN = "jira api token"; // = Base64("usermail:" + Jira-API-Token) Generat API-Token: Jira/Account Settings/Security/Create API Token
+
+
+static const String API_TOKEN = "jira api token";   // = Base64("usermail:" + Jira-API-Token) Generat API-Token: Jira/Account Settings/Security/Create API Token
+                                                    // see also: https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/
