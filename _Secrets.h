@@ -1,3 +1,7 @@
+/**
+ToDo: Rename to Secrets.h and add correct information below
+*/
+
 #ifndef STASSID
 #define STASSID "ssid"
 #define STAPSK "wlan pw"
