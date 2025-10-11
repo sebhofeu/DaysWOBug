@@ -26,14 +26,14 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org");
 
 ESP8266WiFiMulti WiFiMulti;
 
-const int LED_T = 15; //top
-const int LED_TL = 12; //top left
-const int LED_TR = 14; //top right
-const int LED_M = 13; //middle
-const int LED_LL = 16; //lower left
+const int LED_T = 13; //top
+const int LED_TL = 14; //top left
+const int LED_TR = 15; //top right
+const int LED_M = 0; //middle
+const int LED_LL = 5; //lower left
 const int LED_LR = 4; //lower right
-const int LED_L = 5;  //lower
-const int LED_P = 0; //dot
+const int LED_L = 16;  //lower
+const int LED_P = 12; //dot
 
 
 void setup() {
@@ -64,6 +64,7 @@ void setup() {
   digitalWrite(LED_L, LOW);
   digitalWrite(LED_P, LOW);
   digitalWrite(LED_BUILTIN, HIGH);
+
 
 
   printChar("x");
